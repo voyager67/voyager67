@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="#-selected-projects">
+  <img src="profile-hero.svg" alt="Abstract network visualization representing connected ideas, reasoning paths, and experimentation" width="100%" />
+</a>
+
 # Harsh Singh
 
 ### AI Reasoning · Hierarchical Computation · System 2-Inspired Thinking
@@ -18,7 +22,15 @@
   </a>
 </p>
 
-[Research direction](#-research-direction) · [Selected projects](#-selected-projects) · [Technical toolkit](#-technical-toolkit) · [Principles](#-how-i-approach-the-work) · [Connect](#-connect)
+<p>
+  <a href="#-research-direction"><img src="https://img.shields.io/badge/01-Research%20direction-5965D9?style=flat-square" alt="Research direction" /></a>
+  <a href="#-selected-projects"><img src="https://img.shields.io/badge/02-Selected%20projects-168C83?style=flat-square" alt="Selected projects" /></a>
+  <a href="#-technical-toolkit"><img src="https://img.shields.io/badge/03-Technical%20toolkit-3572A5?style=flat-square" alt="Technical toolkit" /></a>
+  <a href="#-how-i-approach-the-work"><img src="https://img.shields.io/badge/04-Principles-7A5BB5?style=flat-square" alt="Principles" /></a>
+  <a href="#-connect"><img src="https://img.shields.io/badge/05-Connect-3C806B?style=flat-square" alt="Connect" /></a>
+</p>
+
+<sub>Click a project preview to open its repository · Open the expandable sections to explore further</sub>
 
 </div>
 
@@ -51,11 +63,19 @@ Alongside that direction, I build software, interactive learning environments, a
 
 ### Current learning and experimentation priorities
 
-- Studying hierarchical reasoning architectures and the ideas behind HRM.
-- Understanding deliberate, multi-step inference and inference-time computation.
-- Building stronger foundations in neural networks, deep learning, and optimization.
-- Learning how to design useful reasoning benchmarks, ablations, and evaluations.
-- Comparing systems using measurable outcomes instead of relying on impressive-looking examples.
+<table>
+  <tr>
+    <td width="50%" valign="top">📐 Studying hierarchical reasoning architectures and the ideas behind HRM.</td>
+    <td width="50%" valign="top">🧠 Understanding deliberate, multi-step inference and inference-time computation.</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">🔬 Building stronger foundations in neural networks, deep learning, and optimization.</td>
+    <td width="50%" valign="top">📊 Learning how to design useful reasoning benchmarks, ablations, and evaluations.</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">⚖️ Comparing systems using measurable outcomes instead of relying on impressive-looking examples.</td>
+  </tr>
+</table>
 
 *This is an evolving research direction. I share projects and experiments as I build the knowledge and evidence behind them.*
 
@@ -158,13 +178,40 @@ My repositories cover different parts of the engineering journey—from understa
 <details>
 <summary><strong>Explore the rest of my project portfolio</strong></summary>
 
-| Project | What it explores | Links |
-|---|---|---|
-| **Claude Garage** | A Claude Code plugin with specialist agents and structured development workflows. | [Repository](https://github.com/voyager67/Claude-Garage) · [Interactive site](https://voyager67.github.io/Claude-Garage/) |
-| **StudyOS** | A local-first study workspace for planning, focus sessions, revision, notes, and analytics. | [Repository](https://github.com/voyager67/Studyos) · [Live demo](https://voyager67.github.io/Studyos/) |
-| **CampusFlow** | A student-built attendance prototype with rotating QR check-ins, SQLite, and CSV reports. Uses fictional demo data only. | [Repository](https://github.com/voyager67/Campusflow) · [Live demo](https://voyager67.github.io/Campusflow/) |
-| **Pathfinding Forge** | A visual playground for BFS, DFS, Dijkstra's algorithm, and A* search. | [Repository](https://github.com/voyager67/Pathfinding-Forge-Visualizer) · [Live demo](https://voyager67.github.io/Pathfinding-Forge-Visualizer/) |
-| **BundleSleuth** | A local-first macOS utility for inspecting selected domain strings in Claude Code bundles. | [Repository](https://github.com/voyager67/Bundlesleuth-claude-domain-inspector) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛠️ <a href="https://github.com/voyager67/Claude-Garage">Claude Garage</a></h3>
+      <p>A Claude Code plugin with specialist agents and structured development workflows.</p>
+      <p><a href="https://github.com/voyager67/Claude-Garage">Repository</a> · <a href="https://voyager67.github.io/Claude-Garage/">Interactive site</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 <a href="https://github.com/voyager67/Studyos">StudyOS</a></h3>
+      <p>A local-first study workspace for planning, focus sessions, revision, notes, and analytics.</p>
+      <p><a href="https://github.com/voyager67/Studyos">Repository</a> · <a href="https://voyager67.github.io/Studyos/">Live demo</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 <a href="https://github.com/voyager67/Campusflow">CampusFlow</a></h3>
+      <p>A student-built attendance prototype with rotating QR check-ins, SQLite, and CSV reports. Uses fictional demo data only.</p>
+      <p><a href="https://github.com/voyager67/Campusflow">Repository</a> · <a href="https://voyager67.github.io/Campusflow/">Live demo</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧭 <a href="https://github.com/voyager67/Pathfinding-Forge-Visualizer">Pathfinding Forge</a></h3>
+      <p>A visual playground for BFS, DFS, Dijkstra's algorithm, and A* search.</p>
+      <p><a href="https://github.com/voyager67/Pathfinding-Forge-Visualizer">Repository</a> · <a href="https://voyager67.github.io/Pathfinding-Forge-Visualizer/">Live demo</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔎 <a href="https://github.com/voyager67/Bundlesleuth-claude-domain-inspector">BundleSleuth</a></h3>
+      <p>A local-first macOS utility for inspecting selected domain strings in Claude Code bundles.</p>
+      <p><a href="https://github.com/voyager67/Bundlesleuth-claude-domain-inspector">Repository</a></p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
+</table>
 
 </details>
 
@@ -200,15 +247,38 @@ My repositories cover different parts of the engineering journey—from understa
 
 ## 🧭 How I Approach the Work
 
-- **Understand before optimizing.** Establish the problem, assumptions, and baseline first.
-- **Measure, don't assume.** Prefer reproducible experiments and meaningful evaluation over impressive demos.
-- **Build in small, verifiable steps.** Keep projects understandable, testable, and maintainable.
-- **Be precise about evidence.** Distinguish working prototypes, experiments, and established results.
-- **Share useful work.** Document decisions and make tools accessible to others.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Understand before optimizing.</strong><br/>
+      Establish the problem, assumptions, and baseline first.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Measure, don't assume.</strong><br/>
+      Prefer reproducible experiments and meaningful evaluation over impressive demos.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Build in small, verifiable steps.</strong><br/>
+      Keep projects understandable, testable, and maintainable.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Be precise about evidence.</strong><br/>
+      Distinguish working prototypes, experiments, and established results.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <strong>Share useful work.</strong><br/>
+      Document decisions and make tools accessible to others.
+    </td>
+  </tr>
+</table>
 
 ## 📊 GitHub Activity
 
-<details>
+<details open>
 <summary><strong>Open live GitHub statistics</strong></summary>
 
 <p align="center">
