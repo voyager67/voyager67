@@ -176,45 +176,132 @@ My repositories cover different parts of the engineering journey—from understa
 ## 🧪 More Things I've Built
 
 <details>
-<summary><strong>Explore the rest of my project portfolio</strong></summary>
+<summary><strong>Explore more public builds — agent systems, specialist tools, and applications</strong></summary>
+
+### Agent systems & reusable workflows
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛠️ <a href="https://github.com/voyager67/Claude-Garage">Claude Garage</a></h3>
-      <p>A Claude Code plugin with specialist agents and structured development workflows.</p>
+      <h3>🧰 <a href="https://github.com/voyager67/Agent-Workbench">Agent Workbench</a></h3>
+      <p><strong>Think clearly. Build deliberately. Ship with confidence.</strong></p>
+      <p>A curated, portable skill library for AI coding agents, spanning everyday engineering, software delivery, research, and specialist agent workflows.</p>
+      <p><img src="https://img.shields.io/badge/50%2B-workflows-7567d8?style=flat-square" alt="50 plus workflows" /> <img src="https://img.shields.io/badge/10-agent%20roles-4f8fc9?style=flat-square" alt="10 agent roles" /> <img src="https://img.shields.io/badge/5-templates-2b9b83?style=flat-square" alt="5 templates" /></p>
+      <p><a href="https://github.com/voyager67/Agent-Workbench">Repository</a> · <a href="https://github.com/voyager67/Agent-Workbench/blob/main/SKILL_CATALOG.md">Skill catalog</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎬 <a href="https://github.com/voyager67/Agentic-Skill-Garage">Agentic Skill Garage</a></h3>
+      <p><strong>Creative production workflows for AI agents.</strong></p>
+      <p>A portable library of 219 agent skills backed by a local-first Python toolkit for references, creative assets, connected tools, and deliverable validation across image, video, audio, 3D, and game-art workflows.</p>
+      <p><img src="https://img.shields.io/badge/Agent%20skills-219-7867d5?style=flat-square" alt="219 agent skills" /> <img src="https://img.shields.io/badge/Toolkit-Python-3776AB?style=flat-square" alt="Python toolkit" /></p>
+      <p><a href="https://github.com/voyager67/Agentic-Skill-Garage">Repository</a> · <a href="https://voyager67.github.io/Agentic-Skill-Garage/">Showcase</a> · <a href="https://github.com/voyager67/Agentic-Skill-Garage/tree/main/skills">Browse skills</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/voyager67/Launchcrew">LaunchCrew</a></h3>
+      <p><strong>Give your AI coding workflow a crew. Not more chaos.</strong></p>
+      <p>A spec-first development toolkit for Codex CLI, with portable skill workflows for ChatGPT. It brings together discovery, specification, implementation, testing, and review.</p>
+      <p><img src="https://img.shields.io/badge/Skills-23-0969da?style=flat-square" alt="23 reusable skills" /> <img src="https://img.shields.io/badge/Codex%20specialists-10-8250df?style=flat-square" alt="10 Codex specialist profiles" /></p>
+      <p><a href="https://github.com/voyager67/Launchcrew">Repository</a> · <a href="https://github.com/voyager67/Launchcrew/tree/main/.agents/skills">Browse skills</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 <a href="https://github.com/voyager67/JaneStreet-Agentic-Skills">JaneStreet Agentic Skills</a></h3>
+      <p><strong>Specialist workflows for quantitative and low-latency systems.</strong></p>
+      <p>An independent collection of reusable agent skills for quantitative trading, market microstructure, HFT research, electronic trading systems, mathematics, software development, and technical learning.</p>
+      <p><a href="https://github.com/voyager67/JaneStreet-Agentic-Skills">Repository</a> · <a href="https://github.com/voyager67/JaneStreet-Agentic-Skills/tree/main/skills">Browse skills</a></p>
+    </td>
+  </tr>
+</table>
+
+### Specialist tools & applied AI
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎨 <a href="https://github.com/voyager67/Pixelcraft">Pixelcraft</a></h3>
+      <p><strong>Detect the tells. Fix the design.</strong></p>
+      <p>A focused skill library that helps AI agents identify generic or inconsistent interfaces and improve visual hierarchy, typography, layouts, responsive behavior, accessibility, and design systems.</p>
+      <p><img src="https://img.shields.io/badge/Specialist%20skills-51-6C5CE7?style=flat-square" alt="51 skills" /></p>
+      <p><a href="https://github.com/voyager67/Pixelcraft">Repository</a> · <a href="https://voyager67.github.io/Pixelcraft/">Live site</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ <a href="https://github.com/voyager67/KINETIQ-Machine-Simulation-Skills">KINETIQ Machine Simulation Skills</a></h3>
+      <p><strong>Make machines explorable. Make every claim testable.</strong></p>
+      <p>An offline-first collection of AI-agent skills for interactive 3D machine explainers, mechanical simulation, physics validation, CAD, and engineering visualization.</p>
+      <p><img src="https://img.shields.io/badge/Agent%20skills-17-7c8cff?style=flat-square" alt="17 agent skills" /> <img src="https://img.shields.io/badge/Runtime-Local%20first-12a66a?style=flat-square" alt="Local first" /></p>
+      <p><a href="https://github.com/voyager67/KINETIQ-Machine-Simulation-Skills">Repository</a> · <a href="https://voyager67.github.io/KINETIQ-Machine-Simulation-Skills/">Live site</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 <a href="https://github.com/voyager67/MarketPilot-AI">MarketPilot AI</a></h3>
+      <p><strong>From market discovery to risk review.</strong></p>
+      <p>A cross-model trading research toolkit combining 17 agent skills with a Python engine for market scans, news and filings, risk checks, scenario replay, walk-forward testing, journaling, and portfolio review.</p>
+      <p><img src="https://img.shields.io/badge/Skills-17-3478C9?style=flat-square" alt="17 skills" /> <img src="https://img.shields.io/badge/Mode-Paper%20only-238636?style=flat-square" alt="Paper only" /></p>
+      <p><a href="https://github.com/voyager67/MarketPilot-AI">Repository</a> · <a href="https://voyager67.github.io/MarketPilot-AI/">Live site</a> · <a href="https://github.com/voyager67/MarketPilot-AI/blob/main/docs/ARCHITECTURE.md">Architecture</a></p>
+      <sub>Research and paper-trading workflows; no live broker connection or order routing.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🦈 <a href="https://github.com/voyager67/The-Sharks">The Sharks</a></h3>
+      <p><strong>Your idea doesn't need applause. It needs five independent lines of attack.</strong></p>
+      <p>A model-agnostic multi-agent startup evaluation framework. Five specialist agents pressure-test business models, numbers, market gaps, and assumptions, then turn findings into experiments.</p>
+      <p><img src="https://img.shields.io/badge/AI%20agents-5-20b8a8?style=flat-square" alt="5 AI agents" /> <img src="https://img.shields.io/badge/Skills-6-4d91d9?style=flat-square" alt="6 skills" /></p>
+      <p><a href="https://github.com/voyager67/The-Sharks">Repository</a> · <a href="https://github.com/voyager67/The-Sharks/tree/main/.agents/skills">Browse skills</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/voyager67/HoneyPot-Guard">HoneyPot Guard</a></h3>
+      <p><strong>Catch the red flags before they leave your machine.</strong></p>
+      <p>A local-first pre-commit security scanner for leaked secrets, suspicious outbound endpoints, and risky code patterns.</p>
+      <p><img src="https://img.shields.io/badge/Runtime%20dependencies-0-success?style=flat-square" alt="Zero runtime dependencies" /> <img src="https://img.shields.io/badge/Telemetry-None-238636?style=flat-square" alt="No telemetry" /></p>
+      <p><a href="https://github.com/voyager67/HoneyPot-Guard">Repository</a> · <a href="https://github.com/voyager67/HoneyPot-Guard/blob/main/SECURITY.md">Security notes</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎞️ <a href="https://github.com/voyager67/kinoquence">Kinoquence</a></h3>
+      <p><strong>Direct the story. Orchestrate the short.</strong></p>
+      <p>A local-first, model-agnostic workflow for AI-assisted animated shorts, with structured storyboards, reusable assets, procedural audio, captions, credits, and technical QA.</p>
+      <p><img src="https://img.shields.io/badge/Release-1.0.0--rc.3-9B76D0?style=flat-square" alt="Release candidate 1.0.0 rc3" /></p>
+      <p><a href="https://github.com/voyager67/kinoquence">Repository</a> · <a href="https://voyager67.github.io/kinoquence/">Showcase</a> · <a href="https://github.com/voyager67/kinoquence/blob/main/docs/KNOWN_LIMITATIONS.md">Known limitations</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔐 <a href="https://github.com/voyager67/Sheerid-Workflow-Studio">SheerFlow — SheerID Workflow Studio</a></h3>
+      <p><strong>Orchestrate every step. Keep every decision auditable.</strong></p>
+      <p>An independent JavaScript workbench for authorized SheerID REST API integrations, coordinating OAuth, verification lifecycles, organization lookup, provider-directed document uploads, status polling, retries, and auditable queues.</p>
+      <p><a href="https://github.com/voyager67/Sheerid-Workflow-Studio">Repository</a> · <a href="https://voyager67.github.io/Sheerid-Workflow-Studio/">Live demo</a></p>
+      <sub>Live mode is intended for authorized programs and API applications; independent of SheerID, Inc.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧩 <a href="https://github.com/voyager67/Claude-Garage">Claude Garage</a></h3>
+      <p><strong>A startup crew for Claude Code.</strong></p>
+      <p>A Claude Code plugin with specialist agents and structured development workflows for pitching, planning, parallel building, breaking, auditing, and shipping.</p>
       <p><a href="https://github.com/voyager67/Claude-Garage">Repository</a> · <a href="https://voyager67.github.io/Claude-Garage/">Interactive site</a></p>
     </td>
+  </tr>
+</table>
+
+### Applications & interactive tools
+
+<table>
+  <tr>
     <td width="50%" valign="top">
       <h3>📚 <a href="https://github.com/voyager67/Studyos">StudyOS</a></h3>
-      <p>A local-first study workspace for planning, focus sessions, revision, notes, and analytics.</p>
+      <p>A local-first study workspace for planning, focus sessions, revision, notes, and analytics—with no account, backend, or remote AI required.</p>
       <p><a href="https://github.com/voyager67/Studyos">Repository</a> · <a href="https://voyager67.github.io/Studyos/">Live demo</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🎓 <a href="https://github.com/voyager67/Campusflow">CampusFlow</a></h3>
-      <p>A student-built attendance prototype with rotating QR check-ins, SQLite, and CSV reports. Uses fictional demo data only.</p>
+      <p>A student-built attendance prototype with rotating QR check-ins, a live dashboard, duplicate check-in prevention, SQLite storage, and CSV reports.</p>
       <p><a href="https://github.com/voyager67/Campusflow">Repository</a> · <a href="https://voyager67.github.io/Campusflow/">Live demo</a></p>
+      <sub>Demonstration only; uses fictional sample students, not real college records.</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3>🧭 <a href="https://github.com/voyager67/Pathfinding-Forge-Visualizer">Pathfinding Forge</a></h3>
-      <p>A visual playground for BFS, DFS, Dijkstra's algorithm, and A* search.</p>
-      <p><a href="https://github.com/voyager67/Pathfinding-Forge-Visualizer">Repository</a> · <a href="https://voyager67.github.io/Pathfinding-Forge-Visualizer/">Live demo</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔎 <a href="https://github.com/voyager67/Bundlesleuth-claude-domain-inspector">BundleSleuth</a></h3>
-      <p>A local-first macOS utility for inspecting selected domain strings in Claude Code bundles.</p>
-      <p><a href="https://github.com/voyager67/Bundlesleuth-claude-domain-inspector">Repository</a></p>
-    </td>
-    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
 </details>
-
 ## 🧑‍💻 Technical Toolkit
 
 <details open>
