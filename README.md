@@ -63,84 +63,93 @@ Alongside that direction, I build software, interactive learning environments, a
 
 My repositories cover different parts of the engineering journey—from understanding neural networks to building reusable AI-agent workflows. They are supporting projects around my broader interest in intelligent systems, not claims of completed research results.
 
-### 🧠 [Neural Networks Playground](https://github.com/voyager67/Neural-Networks-Playground)
-
-**Learn by seeing the network learn.**
-
-An interactive lab for building, training, and inspecting small neural networks.
-
-- Train small multilayer perceptrons and explore decision boundaries.
-- Inspect weights, activations, and gradients.
-- Compare optimizers and experiment with training behavior.
-- Includes a NumPy and Matplotlib experiment track.
-
-<p>
-  <a href="https://voyager67.github.io/Neural-Networks-Playground/"><img src="https://img.shields.io/badge/▶_Live_Demo-Open-238636?style=for-the-badge" alt="Open Neural Networks Playground demo" /></a>
-  <a href="https://github.com/voyager67/Neural-Networks-Playground/stargazers"><img src="https://img.shields.io/github/stars/voyager67/Neural-Networks-Playground?style=for-the-badge&logo=github&label=Star" alt="Star Neural Networks Playground" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/voyager67/Neural-Networks-Playground">
-    <img src="https://raw.githubusercontent.com/voyager67/Neural-Networks-Playground/main/assets/app-screenshot.png" alt="Neural Networks Playground interface" width="88%" />
+<div align="center">
+  <a href="https://github.com/voyager67/Reasoningai.studio">
+    <img src="https://raw.githubusercontent.com/voyager67/Reasoningai.studio/main/docs/assets/hero.svg" alt="ReasoningAI Studio research workflow" width="100%" />
   </a>
-</p>
+  <h3><a href="https://github.com/voyager67/Reasoningai.studio">🧪 ReasoningAI Studio</a></h3>
+  <p><strong>Turn research questions into defensible findings—with evidence you can trace at every step.</strong></p>
+  <p>An evidence-first research toolkit for AI agents and human researchers.</p>
+  <p>
+    <img src="https://img.shields.io/badge/Research%20skills-64-6f42c1?style=for-the-badge" alt="64 research skills" />
+    <img src="https://img.shields.io/badge/Reusable%20prompts-12-0969da?style=for-the-badge" alt="12 reusable prompts" />
+    <img src="https://img.shields.io/badge/Utilities-Local%20Python-238636?style=for-the-badge" alt="Local Python utilities" />
+  </p>
+  <p>
+    64 focused skills covering literature discovery, critical reading, systematic reviews, experiment design, ML evaluation, statistics, reproducibility, scientific writing, and peer review—plus reusable prompts, templates, and local Python utilities.
+  </p>
+  <p>
+    <a href="https://github.com/voyager67/Reasoningai.studio">Explore repository</a> ·
+    <a href="https://github.com/voyager67/Reasoningai.studio/blob/main/docs/skill-catalog.md">Browse skill catalog</a> ·
+    <a href="https://github.com/voyager67/Reasoningai.studio/blob/main/docs/skill-architecture.md">Read architecture</a>
+  </p>
+</div>
 
 ---
 
-### 🧰 [AgentFieldkit](https://github.com/voyager67/AgentFieldkit)
-
-**Equip your agents. Raise the standard.**
-
-An open-source field kit of 25 evidence-first workflows for software engineering, security, AI/ML research, and multi-agent collaboration.
-
-- Reusable workflows for engineering, testing, review, and security.
-- AI/ML research and evaluation-oriented workflows.
-- Portable skill content designed to work across multiple agent environments.
-
-<p>
-  <a href="https://github.com/voyager67/AgentFieldkit"><img src="https://img.shields.io/badge/Explore-25_Workflows-6f42c1?style=for-the-badge" alt="Explore AgentFieldkit workflows" /></a>
-  <a href="https://github.com/voyager67/AgentFieldkit/stargazers"><img src="https://img.shields.io/github/stars/voyager67/AgentFieldkit?style=for-the-badge&logo=github&label=Star" alt="Star AgentFieldkit" /></a>
-</p>
-
----
-
-### 🚀 [LaunchCrew](https://github.com/voyager67/Launchcrew)
-
-**Give your AI coding workflow a crew. Not more chaos.**
-
-A spec-first development toolkit for Codex CLI, with portable skill workflows for ChatGPT.
-
-- 23 reusable skills for discovery, specification, implementation, testing, and review.
-- 10 specialist Codex agent profiles.
-- Structured workflows that emphasize clear scope, verification, and evidence.
-
-<p>
-  <a href="https://github.com/voyager67/Launchcrew"><img src="https://img.shields.io/badge/Explore-LaunchCrew-0969da?style=for-the-badge" alt="Explore LaunchCrew" /></a>
-  <a href="https://github.com/voyager67/Launchcrew/stargazers"><img src="https://img.shields.io/github/stars/voyager67/Launchcrew?style=for-the-badge&logo=github&label=Star" alt="Star LaunchCrew" /></a>
-</p>
-
----
-
-### ⚒️ [Algorithm DSA Forge](https://github.com/voyager67/Algorithm-Dsa-Forge-Visualizer)
-
-**Don't just study algorithms. Watch them work.**
-
-An interactive browser-based learning environment with 129 demonstrations across data structures and algorithms, pathfinding, AI/ML, and reasoning.
-
-- Step-by-step execution, playback controls, and editable inputs.
-- Explore algorithm behavior through visual experiments.
-- Runs as a static browser application.
-
-<p>
-  <a href="https://voyager67.github.io/Algorithm-Dsa-Forge-Visualizer/"><img src="https://img.shields.io/badge/▶_Live_Demo-Open-238636?style=for-the-badge" alt="Open Algorithm DSA Forge demo" /></a>
-  <a href="https://github.com/voyager67/Algorithm-Dsa-Forge-Visualizer/stargazers"><img src="https://img.shields.io/github/stars/voyager67/Algorithm-Dsa-Forge-Visualizer?style=for-the-badge&logo=github&label=Star" alt="Star Algorithm DSA Forge" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/voyager67/Algorithm-Dsa-Forge-Visualizer">
-    <img src="https://raw.githubusercontent.com/voyager67/Algorithm-Dsa-Forge-Visualizer/main/assets/preview.png" alt="Algorithm DSA Forge preview" width="88%" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/voyager67/Neural-Networks-Playground">
+        <img src="https://raw.githubusercontent.com/voyager67/Neural-Networks-Playground/main/assets/app-screenshot.png" alt="Neural Networks Playground interactive interface" width="100%" />
+      </a>
+      <h3>🧠 <a href="https://github.com/voyager67/Neural-Networks-Playground">Neural Networks Playground</a></h3>
+      <p><strong>Learn by seeing the network learn.</strong></p>
+      <p>An interactive lab for building, training, and inspecting small neural networks.</p>
+      <ul>
+        <li>Train small multilayer perceptrons and explore decision boundaries.</li>
+        <li>Inspect weights, activations, and gradients.</li>
+        <li>Compare optimizers and experiment with training behavior.</li>
+        <li>Includes a NumPy and Matplotlib experiment track.</li>
+      </ul>
+      <p><a href="https://voyager67.github.io/Neural-Networks-Playground/">▶ Live demo</a> · <a href="https://github.com/voyager67/Neural-Networks-Playground">Repository</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/voyager67/Implicit-State-Machines-">
+        <img src="https://raw.githubusercontent.com/voyager67/Implicit-State-Machines-/main/assets/implicit-state-machines-banner.svg" alt="Implicit State Machines — Vibe-Refactor Protocol" width="100%" />
+      </a>
+      <h3>⚙️ <a href="https://github.com/voyager67/Implicit-State-Machines-">Implicit State Machines</a></h3>
+      <p><strong>The Vibe-Refactor Protocol — hidden state, made explicit.</strong></p>
+      <p>A repeatable workflow for finding implicit state machines and making fragile application lifecycles explicit—while preserving what works.</p>
+      <ul>
+        <li>Two portable <code>SKILL.md</code> skills.</li>
+        <li>Detection references and a before/after example.</li>
+        <li>Review checklists and a consistent report format.</li>
+      </ul>
+      <p><a href="https://github.com/voyager67/Implicit-State-Machines-">Explore repository</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/voyager67/Algorithm-Dsa-Forge-Visualizer">
+        <img src="https://raw.githubusercontent.com/voyager67/Algorithm-Dsa-Forge-Visualizer/main/assets/preview.png" alt="Algorithm DSA Forge visualizer preview" width="100%" />
+      </a>
+      <h3>⚒️ <a href="https://github.com/voyager67/Algorithm-Dsa-Forge-Visualizer">Algorithm DSA Forge</a></h3>
+      <p><strong>Don't just study algorithms. Watch them work.</strong></p>
+      <p>An interactive browser-based learning environment with 129 demonstrations across data structures and algorithms, pathfinding, AI/ML, and reasoning.</p>
+      <ul>
+        <li>Step-by-step execution, playback controls, and editable inputs.</li>
+        <li>Explore algorithm behavior through visual experiments.</li>
+        <li>Runs as a static browser application.</li>
+      </ul>
+      <p><a href="https://voyager67.github.io/Algorithm-Dsa-Forge-Visualizer/">▶ Live demo</a> · <a href="https://github.com/voyager67/Algorithm-Dsa-Forge-Visualizer">Repository</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/voyager67/AgentFieldkit">
+        <img src="https://raw.githubusercontent.com/voyager67/AgentFieldkit/main/assets/agent-fieldkit-banner.svg" alt="AgentFieldkit — evidence-first agent workflows" width="100%" />
+      </a>
+      <h3>🧰 <a href="https://github.com/voyager67/AgentFieldkit">AgentFieldkit</a></h3>
+      <p><strong>Equip your agents. Raise the standard.</strong></p>
+      <p>An open-source field kit of 25 evidence-first workflows for software engineering, security, AI/ML research, and multi-agent collaboration.</p>
+      <ul>
+        <li>Reusable workflows for engineering, testing, review, and security.</li>
+        <li>AI/ML research and evaluation-oriented workflows.</li>
+        <li>Portable skill content designed to work across multiple agent environments.</li>
+      </ul>
+      <p><a href="https://github.com/voyager67/AgentFieldkit">Explore repository</a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
