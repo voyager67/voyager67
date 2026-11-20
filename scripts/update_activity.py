@@ -136,7 +136,7 @@ def render_svg(events: list[dict]) -> str:
         ("OTHER", "other"),
     ]
 
-    width, height = 1080, 510
+    width, height = 1080, 545
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Automatically refreshed visual summary of public GitHub commits, pull requests, issues, reviews, and other activity over the last 90 days">',
         '<defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>',
@@ -198,7 +198,7 @@ def render_svg(events: list[dict]) -> str:
     parts.append(svg_text(34, 267, "ACTIVITY TYPES", 12, "#c9d1d9", 700))
     bar_x, bar_w = 190, 705
     max_count = max((counts[k] for _, k in labels), default=1) or 1
-    row_y = 294
+    row_y = 290
     for index, (label, key) in enumerate(labels):
         y = row_y + index * 34
         value = counts[key]
