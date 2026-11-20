@@ -154,12 +154,12 @@ def render_svg(events: list[dict]) -> str:
     parts.append(svg_text(1046, 111, f"{total:,} EVENTS", 10, "#8b949e", 600))
     start = now.date() - timedelta(days=90)
     start -= timedelta(days=start.weekday())
-    cell = 12
-    gap = 4
+    cell_w, cell_h = 54, 12
+    gap_x, gap_y = 5, 4
     x0, y0 = 36, 129
     day_names = [("MON", 0), ("WED", 2), ("FRI", 4)]
     for name, row in day_names:
-        parts.append(svg_text(4, y0 + row * (cell + gap) + 10, name, 8, "#6e7681", 500))
+        parts.append(svg_text(4, y0 + row * (cell_h + gap_y) + 10, name, 8, "#6e7681", 500))
 
     max_day = max(daily.values(), default=0)
     for index in range(13 * 7):
@@ -177,11 +177,11 @@ def render_svg(events: list[dict]) -> str:
             fill = "#8b5cf6"
         else:
             fill = "#c4a7ff"
-        x = x0 + col * (cell + gap)
-        y = y0 + row * (cell + gap)
+        x = x0 + col * (cell_w + gap_x)
+        y = y0 + row * (cell_h + gap_y)
         tip = f"{day.isoformat()}: {value} public activity units"
         parts.append(
-            f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{fill}">'
+            f'<rect x="{x}" y="{y}" width="{cell_w}" height="{cell_h}" rx="2" fill="{fill}">'
             f'<title>{escape(tip)}</title></rect>'
         )
 
@@ -192,7 +192,7 @@ def render_svg(events: list[dict]) -> str:
         marker = (week_day.year, week_day.month)
         if marker not in month_seen:
             month_seen.add(marker)
-            parts.append(svg_text(x0 + col * (cell + gap), 122, week_day.strftime("%b").upper(), 8, "#6e7681", 500))
+            parts.append(svg_text(x0 + col * (cell_w + gap_x), 122, week_day.strftime("%b").upper(), 8, "#6e7681", 500))
 
     # Activity categories: visual bars, with no star/watch category.
     parts.append(svg_text(34, 267, "ACTIVITY TYPES", 12, "#c9d1d9", 700))
