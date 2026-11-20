@@ -108,26 +108,6 @@ A map of my public work across AI research, agent engineering, specialist toolki
 
 ## GitHub Activity
 
-I use GitHub as a working notebook for building, testing, documenting, and refining software. My activity spans research infrastructure, reusable agent workflows, developer tooling, and applied prototypes—not just code commits, but also validation, documentation, release preparation, and maintenance.
-
 <p align="center">
-  <img src="https://ghchart.rshah.org/6f42c1/voyager67" alt="GitHub contribution calendar for Harsh Singh" width="100%" />
+  <img src="./activity.svg" alt="Live-updating visual summary of public GitHub commits, pull requests, issues, and reviews" width="100%" />
 </p>
-
-### Recent development highlights
-
-| Date | Project | Recent work |
-|---|---|---|
-| **17 Nov 2026** | [Agent Workbench](https://github.com/voyager67/Agent-Workbench) | Added a contributor guide, following quality checks and regression-test improvements. [View commit](https://github.com/voyager67/Agent-Workbench/commit/7c6c5f520d5b542dfdb27371cbb5a0729a5b5479) |
-| **18 Nov 2026** | [ARGUMENTUM Research Engine](https://github.com/voyager67/Argumentum-Research-engine) | Connected the public project website and continued the research platform's documentation and deployment work. [View commit](https://github.com/voyager67/Argumentum-Research-engine/commit/8a159c6e0588ec0074d3fb1a0a20c17eb89c47a0) |
-| **7 Nov 2026** | [Agentic Skill Garage](https://github.com/voyager67/Agentic-Skill-Garage) | Audited repository privacy, hardened file operations, and repaired CI. [View commit](https://github.com/voyager67/Agentic-Skill-Garage/commit/9121e65c9ee632305ba2b78b16bf270ab009102e) |
-| **5 Nov 2026** | [MarketPilot AI](https://github.com/voyager67/MarketPilot-AI) | Published the v1.0.0 project release and prepared its public project site. [View release commit](https://github.com/voyager67/MarketPilot-AI/commit/5f851e498229be930ff2cdbe722da0690a869820) |
-
-### What my activity focuses on
-
-- **Research engineering:** structuring research workflows, evidence provenance, evaluation, and reproducible outputs.
-- **Agentic systems:** designing portable skills, specialist roles, workflow orchestration, and verification gates across coding-agent environments.
-- **Developer infrastructure:** improving repository quality, tests, CI, documentation, security checks, and release readiness.
-- **Applied experimentation:** building interactive learning tools and model-agnostic prototypes where behavior can be inspected and tested.
-
-For the complete, live record, visit my [GitHub activity overview](https://github.com/voyager67?tab=overview) or browse [recent commits across my repositories](https://github.com/voyager67?tab=repositories).
