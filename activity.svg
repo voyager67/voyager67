@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="545" viewBox="0 0 1080 545" role="img" aria-label="Live GitHub public activity dashboard. The first automatic refresh is pending.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1078" height="543" rx="18" fill="url(#bg)" stroke="#30363d"/>
+  <text x="34" y="44" fill="#f0f6fc" font-family="Inter,system-ui,sans-serif" font-size="20" font-weight="700">PUBLIC ACTIVITY</text>
+  <text x="34" y="68" fill="#8b949e" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="600">LAST 90 DAYS</text>
+  <rect x="880" y="22" width="166" height="30" rx="15" fill="#142b23" stroke="#245b40"/>
+  <circle cx="899" cy="37" r="4" fill="#3fb950"/>
+  <text x="911" y="41" fill="#7ee787" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700">AUTO-REFRESH · 6H</text>
+  <line x1="28" y1="84" x2="1052" y2="84" stroke="#30363d"/>
+  <text x="34" y="111" fill="#c9d1d9" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700">ACTIVITY CALENDAR</text>
+  <text x="35" y="267" fill="#c9d1d9" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700">ACTIVITY TYPES</text>
+  <text x="34" y="482" fill="#8b949e" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="600">WEEKLY FLOW</text>
+  <g fill="#21262d">
+    <rect x="36" y="129" width="204" height="108" rx="7"/>
+    <rect x="190" y="290" width="705" height="148" rx="8"/>
+    <rect x="190" y="452" width="705" height="68" rx="8"/>
+  </g>
+  <g fill="#8b949e" font-family="Inter,system-ui,sans-serif" font-size="13">
+    <text x="540" y="182" text-anchor="middle">LIVE ACTIVITY SYNC INITIALIZING</text>
+    <text x="540" y="207" text-anchor="middle" font-size="11">The visual timeline will populate from public GitHub events.</text>
+  </g>
+  <g fill="#a78bfa">
+    <rect x="930" y="290" width="116" height="24" rx="12" opacity=".14"/>
+  </g>
+  <g fill="#58a6ff">
+    <rect x="930" y="324" width="116" height="24" rx="12" opacity=".14"/>
+  </g>
+  <g fill="#f2cc60">
+    <rect x="930" y="358" width="116" height="24" rx="12" opacity=".14"/>
+  </g>
+  <g fill="#3fb950">
+    <rect x="930" y="392" width="116" height="24" rx="12" opacity=".14"/>
+  </g>
+  <g fill="#8b949e">
+    <rect x="930" y="426" width="116" height="12" rx="6" opacity=".14"/>
+  </g>
+</svg>
