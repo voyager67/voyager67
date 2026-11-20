@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate activity visualization
         env:
-          GH_TOKEN: \${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: python scripts/update_activity.py
 
       - name: Commit refreshed visualization
