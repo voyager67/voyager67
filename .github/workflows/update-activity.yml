@@ -1,0 +1,51 @@
+name: Refresh visual GitHub activity
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-activity.yml"
+      - "scripts/update_activity.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate activity visualization
+        env:
+          GH_TOKEN: \${{ github.token }}
+        run: python scripts/update_activity.py
+
+      - name: Commit refreshed visualization
+        run: |
+          if git diff --quiet -- activity.svg; then
+            echo "Activity visualization is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activity.svg
+          git commit -m "chore: refresh visual GitHub activity"
+          git push
