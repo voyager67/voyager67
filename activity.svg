@@ -1,42 +1,143 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="545" viewBox="0 0 1080 545" role="img" aria-label="Live GitHub public activity dashboard. The first automatic refresh is pending.">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#161b22"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-  </defs>
-  <rect x="1" y="1" width="1078" height="543" rx="18" fill="url(#bg)" stroke="#30363d"/>
-  <text x="34" y="44" fill="#f0f6fc" font-family="Inter,system-ui,sans-serif" font-size="20" font-weight="700">PUBLIC ACTIVITY</text>
-  <text x="34" y="68" fill="#8b949e" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="600">LAST 90 DAYS</text>
-  <rect x="880" y="22" width="166" height="30" rx="15" fill="#142b23" stroke="#245b40"/>
-  <circle cx="899" cy="37" r="4" fill="#3fb950"/>
-  <text x="911" y="41" fill="#7ee787" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700">AUTO-REFRESH · 6H</text>
-  <line x1="28" y1="84" x2="1052" y2="84" stroke="#30363d"/>
-  <text x="34" y="111" fill="#c9d1d9" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700">ACTIVITY CALENDAR</text>
-  <text x="35" y="267" fill="#c9d1d9" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700">ACTIVITY TYPES</text>
-  <text x="34" y="482" fill="#8b949e" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="600">WEEKLY FLOW</text>
-  <g fill="#21262d">
-    <rect x="36" y="129" width="204" height="108" rx="7"/>
-    <rect x="190" y="290" width="705" height="148" rx="8"/>
-    <rect x="190" y="452" width="705" height="68" rx="8"/>
-  </g>
-  <g fill="#8b949e" font-family="Inter,system-ui,sans-serif" font-size="13">
-    <text x="540" y="182" text-anchor="middle">LIVE ACTIVITY SYNC INITIALIZING</text>
-    <text x="540" y="207" text-anchor="middle" font-size="11">The visual timeline will populate from public GitHub events.</text>
-  </g>
-  <g fill="#a78bfa">
-    <rect x="930" y="290" width="116" height="24" rx="12" opacity=".14"/>
-  </g>
-  <g fill="#58a6ff">
-    <rect x="930" y="324" width="116" height="24" rx="12" opacity=".14"/>
-  </g>
-  <g fill="#f2cc60">
-    <rect x="930" y="358" width="116" height="24" rx="12" opacity=".14"/>
-  </g>
-  <g fill="#3fb950">
-    <rect x="930" y="392" width="116" height="24" rx="12" opacity=".14"/>
-  </g>
-  <g fill="#8b949e">
-    <rect x="930" y="426" width="116" height="12" rx="6" opacity=".14"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="545" viewBox="0 0 1080 545" role="img" aria-label="Automatically refreshed visual summary of public GitHub commits, pull requests, issues, reviews, and other activity over the last 90 days">
+<defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
+<rect x="1" y="1" width="1078" height="508" rx="18" fill="url(#panel)" stroke="#30363d"/>
+<text x="34" y="42" fill="#f0f6fc" font-size="20" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">PUBLIC ACTIVITY</text>
+<text x="34" y="66" fill="#8b949e" font-size="11" font-weight="600" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">LAST 90 DAYS</text>
+<rect x="880" y="22" width="166" height="30" rx="15" fill="#142b23" stroke="#245b40"/>
+<circle cx="899" cy="37" r="4" fill="#3fb950"/>
+<text x="911" y="41" fill="#7ee787" font-size="10" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">AUTO-REFRESH · 6H</text>
+<line x1="28" y1="84" x2="1052" y2="84" stroke="#30363d"/>
+<text x="34" y="111" fill="#c9d1d9" font-size="12" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">ACTIVITY CALENDAR</text>
+<text x="1046" y="111" fill="#8b949e" font-size="10" font-weight="600" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">96 EVENTS</text>
+<text x="4" y="139" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">MON</text>
+<text x="4" y="171" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">WED</text>
+<text x="4" y="203" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">FRI</text>
+<rect x="36" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-17: 0 public activity units</title></rect>
+<rect x="36" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-18: 0 public activity units</title></rect>
+<rect x="36" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-19: 0 public activity units</title></rect>
+<rect x="36" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-20: 0 public activity units</title></rect>
+<rect x="36" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-21: 0 public activity units</title></rect>
+<rect x="36" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-22: 0 public activity units</title></rect>
+<rect x="36" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-23: 0 public activity units</title></rect>
+<rect x="52" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-24: 0 public activity units</title></rect>
+<rect x="52" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-25: 0 public activity units</title></rect>
+<rect x="52" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-26: 0 public activity units</title></rect>
+<rect x="52" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-27: 0 public activity units</title></rect>
+<rect x="52" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-28: 0 public activity units</title></rect>
+<rect x="52" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-29: 0 public activity units</title></rect>
+<rect x="52" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-30: 0 public activity units</title></rect>
+<rect x="68" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-08-31: 0 public activity units</title></rect>
+<rect x="68" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-01: 0 public activity units</title></rect>
+<rect x="68" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-02: 0 public activity units</title></rect>
+<rect x="68" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-03: 0 public activity units</title></rect>
+<rect x="68" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-04: 0 public activity units</title></rect>
+<rect x="68" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-05: 0 public activity units</title></rect>
+<rect x="68" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-06: 0 public activity units</title></rect>
+<rect x="84" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-07: 0 public activity units</title></rect>
+<rect x="84" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-08: 0 public activity units</title></rect>
+<rect x="84" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-09: 0 public activity units</title></rect>
+<rect x="84" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-10: 0 public activity units</title></rect>
+<rect x="84" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-11: 0 public activity units</title></rect>
+<rect x="84" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-12: 0 public activity units</title></rect>
+<rect x="84" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-13: 0 public activity units</title></rect>
+<rect x="100" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-14: 0 public activity units</title></rect>
+<rect x="100" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-15: 0 public activity units</title></rect>
+<rect x="100" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-16: 0 public activity units</title></rect>
+<rect x="100" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-17: 0 public activity units</title></rect>
+<rect x="100" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-18: 0 public activity units</title></rect>
+<rect x="100" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-19: 0 public activity units</title></rect>
+<rect x="100" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-20: 0 public activity units</title></rect>
+<rect x="116" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-21: 0 public activity units</title></rect>
+<rect x="116" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-22: 0 public activity units</title></rect>
+<rect x="116" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-23: 0 public activity units</title></rect>
+<rect x="116" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-24: 0 public activity units</title></rect>
+<rect x="116" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-25: 0 public activity units</title></rect>
+<rect x="116" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-26: 0 public activity units</title></rect>
+<rect x="116" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-27: 0 public activity units</title></rect>
+<rect x="132" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-28: 0 public activity units</title></rect>
+<rect x="132" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-29: 0 public activity units</title></rect>
+<rect x="132" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-09-30: 0 public activity units</title></rect>
+<rect x="132" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-01: 0 public activity units</title></rect>
+<rect x="132" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-02: 0 public activity units</title></rect>
+<rect x="132" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-03: 0 public activity units</title></rect>
+<rect x="132" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-04: 0 public activity units</title></rect>
+<rect x="148" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-05: 0 public activity units</title></rect>
+<rect x="148" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-06: 0 public activity units</title></rect>
+<rect x="148" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-07: 0 public activity units</title></rect>
+<rect x="148" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-08: 0 public activity units</title></rect>
+<rect x="148" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-09: 0 public activity units</title></rect>
+<rect x="148" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-10: 0 public activity units</title></rect>
+<rect x="148" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-11: 0 public activity units</title></rect>
+<rect x="164" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-12: 0 public activity units</title></rect>
+<rect x="164" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-13: 0 public activity units</title></rect>
+<rect x="164" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-14: 0 public activity units</title></rect>
+<rect x="164" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-15: 0 public activity units</title></rect>
+<rect x="164" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-16: 0 public activity units</title></rect>
+<rect x="164" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-17: 0 public activity units</title></rect>
+<rect x="164" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-18: 0 public activity units</title></rect>
+<rect x="180" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-19: 0 public activity units</title></rect>
+<rect x="180" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-20: 0 public activity units</title></rect>
+<rect x="180" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-21: 0 public activity units</title></rect>
+<rect x="180" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-22: 0 public activity units</title></rect>
+<rect x="180" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-23: 0 public activity units</title></rect>
+<rect x="180" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-24: 0 public activity units</title></rect>
+<rect x="180" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-25: 0 public activity units</title></rect>
+<rect x="196" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-26: 0 public activity units</title></rect>
+<rect x="196" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-27: 0 public activity units</title></rect>
+<rect x="196" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-28: 0 public activity units</title></rect>
+<rect x="196" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-29: 0 public activity units</title></rect>
+<rect x="196" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-30: 0 public activity units</title></rect>
+<rect x="196" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-10-31: 0 public activity units</title></rect>
+<rect x="196" y="225" width="12" height="12" rx="2" fill="#21262d"><title>2026-11-01: 0 public activity units</title></rect>
+<rect x="212" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-11-02: 0 public activity units</title></rect>
+<rect x="212" y="145" width="12" height="12" rx="2" fill="#21262d"><title>2026-11-03: 0 public activity units</title></rect>
+<rect x="212" y="161" width="12" height="12" rx="2" fill="#21262d"><title>2026-11-04: 0 public activity units</title></rect>
+<rect x="212" y="177" width="12" height="12" rx="2" fill="#21262d"><title>2026-11-05: 0 public activity units</title></rect>
+<rect x="212" y="193" width="12" height="12" rx="2" fill="#3b2e5f"><title>2026-11-06: 4 public activity units</title></rect>
+<rect x="212" y="209" width="12" height="12" rx="2" fill="#3b2e5f"><title>2026-11-07: 5 public activity units</title></rect>
+<rect x="212" y="225" width="12" height="12" rx="2" fill="#6846a5"><title>2026-11-08: 10 public activity units</title></rect>
+<rect x="228" y="129" width="12" height="12" rx="2" fill="#21262d"><title>2026-11-09: 0 public activity units</title></rect>
+<rect x="228" y="145" width="12" height="12" rx="2" fill="#c4a7ff"><title>2026-11-10: 30 public activity units</title></rect>
+<rect x="228" y="161" width="12" height="12" rx="2" fill="#8b5cf6"><title>2026-11-11: 18 public activity units</title></rect>
+<rect x="228" y="177" width="12" height="12" rx="2" fill="#3b2e5f"><title>2026-11-12: 3 public activity units</title></rect>
+<rect x="228" y="193" width="12" height="12" rx="2" fill="#21262d"><title>2026-11-13: 0 public activity units</title></rect>
+<rect x="228" y="209" width="12" height="12" rx="2" fill="#21262d"><title>2026-11-14: 0 public activity units</title></rect>
+<rect x="228" y="225" width="12" height="12" rx="2" fill="#3b2e5f"><title>2026-11-15: 3 public activity units</title></rect>
+<text x="36" y="122" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">AUG</text>
+<text x="84" y="122" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">SEP</text>
+<text x="148" y="122" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">OCT</text>
+<text x="212" y="122" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">NOV</text>
+<text x="34" y="267" fill="#c9d1d9" font-size="12" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">ACTIVITY TYPES</text>
+<text x="35" y="302" fill="#c9d1d9" font-size="10" font-weight="600" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">COMMITS</text>
+<rect x="190" y="290" width="705" height="12" rx="6" fill="#21262d"/>
+<rect x="190" y="290" width="705" height="12" rx="6" fill="#a78bfa"/>
+<text x="930" y="301" fill="#f0f6fc" font-size="11" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">75</text>
+<text x="35" y="336" fill="#c9d1d9" font-size="10" font-weight="600" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">PULL REQUESTS</text>
+<rect x="190" y="324" width="705" height="12" rx="6" fill="#21262d"/>
+<rect x="190" y="324" width="65" height="12" rx="6" fill="#58a6ff"/>
+<text x="930" y="335" fill="#f0f6fc" font-size="11" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">7</text>
+<text x="35" y="370" fill="#c9d1d9" font-size="10" font-weight="600" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">ISSUES</text>
+<rect x="190" y="358" width="705" height="12" rx="6" fill="#21262d"/>
+<rect x="190" y="358" width="18" height="12" rx="6" fill="#f2cc60"/>
+<text x="930" y="369" fill="#f0f6fc" font-size="11" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">2</text>
+<text x="35" y="404" fill="#c9d1d9" font-size="10" font-weight="600" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">REVIEWS</text>
+<rect x="190" y="392" width="705" height="12" rx="6" fill="#21262d"/>
+<rect x="190" y="392" width="0" height="12" rx="6" fill="#3fb950"/>
+<text x="930" y="403" fill="#f0f6fc" font-size="11" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">0</text>
+<text x="35" y="438" fill="#c9d1d9" font-size="10" font-weight="600" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">OTHER</text>
+<rect x="190" y="426" width="705" height="12" rx="6" fill="#21262d"/>
+<rect x="190" y="426" width="112" height="12" rx="6" fill="#8b949e"/>
+<text x="930" y="437" fill="#f0f6fc" font-size="11" font-weight="700" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">12</text>
+<text x="34" y="482" fill="#8b949e" font-size="11" font-weight="600" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">WEEKLY FLOW</text>
+<text x="190" y="527" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">17 Aug</text>
+<text x="354" y="527" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">07 Sep</text>
+<text x="519" y="527" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">28 Sep</text>
+<text x="684" y="527" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">19 Oct</text>
+<rect x="794.2" y="499.9" width="45.9" height="20.1" rx="2" fill="#a78bfa"/>
+<rect x="794.2" y="496.1" width="45.9" height="3.8" rx="2" fill="#8b949e"/>
+<rect x="849.1" y="464.6" width="45.9" height="55.4" rx="2" fill="#a78bfa"/>
+<rect x="849.1" y="459.6" width="45.9" height="5.0" rx="2" fill="#58a6ff"/>
+<rect x="849.1" y="452.0" width="45.9" height="7.6" rx="2" fill="#8b949e"/>
+<text x="849" y="527" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">09 Nov</text>
+<line x1="28" y1="441" x2="1052" y2="441" stroke="#30363d"/>
 </svg>
