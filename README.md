@@ -28,41 +28,38 @@ My focus is on **evidence over appearance, verification over assumption, and use
 
 A map of my public work across AI research, agent engineering, specialist toolkits, and applied systems. Each project name opens its repository.
 
-### AI Reasoning and Research
+### AI Reasoning and Machine Learning
 
-- **[ARGUMENTUM Research Engine](https://github.com/voyager67/Argumentum-Research-engine)** — A self-hosted, multi-agent research pipeline for literature discovery, evidence mapping, methodological critique, and auditable research outputs.
+- **[Argumentum Research Orchestra](https://github.com/voyager67/Argumentum-Research-Orchestra)** — A self-hosted, multi-agent research infrastructure for literature discovery, evidence synthesis, methodological critique, and reproducible manuscript workflows.
 - **[ReasoningAI Studio](https://github.com/voyager67/Reasoningai.studio)** — An evidence-first research toolkit with portable skills, reusable prompts, templates, and local utilities for reproducible research.
 - **[Neural Networks Playground](https://github.com/voyager67/Neural-Networks-Playground)** — An interactive machine-learning lab for training small neural networks and inspecting activations, gradients, optimizers, and decision boundaries.
-- **[Algorithm DSA Forge](https://github.com/voyager67/Algorithm-Dsa-Forge-Visualizer)** — A visual learning environment for data structures, algorithms, pathfinding, machine learning, and AI reasoning, with step-by-step execution.
+- **[Algorithm DSA Forge (Archived)](https://github.com/voyager67/Algorithm-Dsa-Forge-Visualizer)** — A visual learning environment for data structures, algorithms, pathfinding, machine learning, and AI reasoning, with step-by-step execution.
 
 ### Agentic Engineering and Developer Tools
 
-- **[The Startup — Gemini CLI Edition](https://github.com/voyager67/the-startup-gemini)** — A Gemini CLI-native engineering workflow with specialist agents, spec-driven development, adversarial reviews, and security and cost gates.
+- **[AI Agent Engineering Toolkit](https://github.com/voyager67/Agent-Engineering-Toolkit)** — A portable library of agent skills, specialist roles, and workflow templates for software engineering, research, testing, and technical delivery.
 - **[LaunchCrew](https://github.com/voyager67/Launchcrew)** — A Codex-first, spec-driven toolkit for turning product ideas into scoped plans, delegated implementation, verified changes, and clear handoffs.
 - **[Claude Garage](https://github.com/voyager67/Claude-Garage)** — A Claude Code plugin that brings structured startup-style workflows to planning, parallel building, testing, auditing, and shipping.
-- **[Agent Workbench](https://github.com/voyager67/Agent-Workbench)** — A portable library of agent skills, role blueprints, and templates for software engineering, research, and delivery.
-- **[AgentFieldkit](https://github.com/voyager67/AgentFieldkit)** — Evidence-first playbooks for repository exploration, software engineering, security, AI/ML research, and multi-agent collaboration.
 - **[Implicit State Machines](https://github.com/voyager67/Implicit-State-Machines-)** — Agent workflows for finding hidden application lifecycles and refactoring fragile, boolean-heavy state into explicit, testable models.
 
 ### Specialist Agent Skill Libraries
 
-- **[Agentic Skill Garage](https://github.com/voyager67/Agentic-Skill-Garage)** — Creative-production workflows for AI agents, supported by local Python tools for asset preparation, media operations, and deliverable checks.
+- **[AI Creative Production Toolkit](https://github.com/voyager67/AI-Creative-Production-Toolkit)** — A library of AI agent skills and local Python tools for image, video, audio, 3D, game art, and creative production workflows.
 - **[JaneStreet Agentic Skills](https://github.com/voyager67/JaneStreet-Agentic-Skills)** — Specialist playbooks for quantitative trading, market microstructure, order-book systems, low-latency engineering, risk controls, and research validation.
 - **[KINETIQ Machine Simulation Skills](https://github.com/voyager67/KINETIQ-Machine-Simulation-Skills)** — Portable skills for interactive 3D machine explainers, mechanical simulation, physics validation, and offline delivery.
-- **[Pixelcraft](https://github.com/voyager67/Pixelcraft)** — A design-quality skill library that helps agents detect generic interfaces and improve hierarchy, typography, layout, accessibility, and consistency.
+- **[Pixelcraft](https://github.com/voyager67/Pixelcraft)** — A specialized skill library for identifying and improving generic interfaces, visual hierarchy, typography, layout, accessibility, and design consistency.
+- **[LinkedIn Skills 360](https://github.com/voyager67/LinkedIn-Skills-360)** — A model-agnostic AI skill ecosystem for LinkedIn workflows across careers, networking, content creation, sales, recruiting, and hiring.
 
 ### Applied AI and Product Systems
 
 - **[MarketPilot AI](https://github.com/voyager67/MarketPilot-AI)** — A model-agnostic trading research toolkit for market scans, risk checks, scenario replay, walk-forward evaluation, and paper-only workflows.
-- **[The Sharks](https://github.com/voyager67/The-Sharks)** — A multi-agent startup evaluation panel that pressure-tests customers, revenue, unit economics, competition, and founder-market fit.
+- **[The Sharks](https://github.com/voyager67/The-Sharks)** — A multi-agent startup evaluation framework that pressure-tests customers, revenue, unit economics, competition, and founder-market fit.
 - **[Kinoquence](https://github.com/voyager67/kinoquence)** — A local-first, model-agnostic production workflow for animated shorts, with structured storyboards, asset tracking, captions, credits, and quality checks.
 - **[SheerFlow — SheerID Workflow Studio](https://github.com/voyager67/Sheerid-Workflow-Studio)** — A JavaScript workbench for authorized SheerID API integrations, verification workflows, document uploads, and auditable job tracking.
-- **[CampusFlow](https://github.com/voyager67/Campusflow)** — A classroom-attendance prototype with rotating QR check-ins, duplicate prevention, and CSV reporting; built around fictional demonstration data.
 
 ### Security and Inspection Tools
 
 - **[HoneyPot Guard](https://github.com/voyager67/HoneyPot-Guard)** — A local-first pre-commit scanner for leaked secrets, suspicious outbound endpoints, and risky code patterns.
-- **[Claude Bundle Domain Inspector](https://github.com/voyager67/Bundlesleuth-claude-domain-inspector)** — A small macOS utility for inspecting narrowly scoped domain strings in Claude Code bundles, without executing the inspected binary or making network requests.
 
 ### Open-Source Reference
 
