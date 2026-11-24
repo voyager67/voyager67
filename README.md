@@ -52,6 +52,7 @@ A map of my public work across AI research, agent engineering, specialist toolki
 
 ### Applied AI and Product Systems
 
+- **[MarketCouncil](https://github.com/voyager67/Market-Council)** — An AI-powered trading research council with 15 specialist roles, 74 trader-focused skills, 13 workflows, adversarial thesis review, deterministic risk utilities, historical backtesting, and paper/testnet boundaries. No live-money order adapter is included.
 - **[MarketPilot AI](https://github.com/voyager67/MarketPilot-AI)** — A model-agnostic trading research toolkit for market scans, risk checks, scenario replay, walk-forward evaluation, and paper-only workflows.
 - **[The Sharks](https://github.com/voyager67/The-Sharks)** — A multi-agent startup evaluation framework that pressure-tests customers, revenue, unit economics, competition, and founder-market fit.
 - **[Kinoquence](https://github.com/voyager67/kinoquence)** — A local-first, model-agnostic production workflow for animated shorts, with structured storyboards, asset tracking, captions, credits, and quality checks.
