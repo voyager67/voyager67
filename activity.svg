@@ -91,7 +91,7 @@
 <rect x="626" y="225" width="54" height="12" rx="2" fill="#3b2e5f"><title>2026-11-08: 1 public activity units</title></rect>
 <rect x="685" y="129" width="54" height="12" rx="2" fill="#21262d"><title>2026-11-09: 0 public activity units</title></rect>
 <rect x="685" y="145" width="54" height="12" rx="2" fill="#21262d"><title>2026-11-10: 0 public activity units</title></rect>
-<rect x="685" y="161" width="54" height="12" rx="2" fill="#c4a7ff"><title>2026-11-11: 12 public activity units</title></rect>
+<rect x="685" y="161" width="54" height="12" rx="2" fill="#c4a7ff"><title>2026-11-11: 11 public activity units</title></rect>
 <rect x="685" y="177" width="54" height="12" rx="2" fill="#3b2e5f"><title>2026-11-12: 3 public activity units</title></rect>
 <rect x="685" y="193" width="54" height="12" rx="2" fill="#21262d"><title>2026-11-13: 0 public activity units</title></rect>
 <rect x="685" y="209" width="54" height="12" rx="2" fill="#21262d"><title>2026-11-14: 0 public activity units</title></rect>
@@ -134,9 +134,9 @@
 <text x="519" y="527" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">05 Oct</text>
 <text x="684" y="527" fill="#6e7681" font-size="8" font-weight="500" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">26 Oct</text>
 <rect x="739.2" y="518.5" width="45.9" height="1.5" rx="2" fill="#8b949e"/>
-<rect x="794.2" y="506.1" width="45.9" height="13.9" rx="2" fill="#a78bfa"/>
-<rect x="794.2" y="499.9" width="45.9" height="6.2" rx="2" fill="#58a6ff"/>
-<rect x="794.2" y="490.6" width="45.9" height="9.3" rx="2" fill="#8b949e"/>
+<rect x="794.2" y="507.6" width="45.9" height="12.4" rx="2" fill="#a78bfa"/>
+<rect x="794.2" y="501.5" width="45.9" height="6.2" rx="2" fill="#58a6ff"/>
+<rect x="794.2" y="492.2" width="45.9" height="9.3" rx="2" fill="#8b949e"/>
 <rect x="849.1" y="472.1" width="45.9" height="47.9" rx="2" fill="#a78bfa"/>
 <rect x="849.1" y="464.4" width="45.9" height="7.7" rx="2" fill="#58a6ff"/>
 <rect x="849.1" y="461.3" width="45.9" height="3.1" rx="2" fill="#f2cc60"/>
