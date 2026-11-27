@@ -6,7 +6,7 @@
 
 ### AI Reasoning · Hierarchical Computation · Research Engineering
 
-**Computer Science student exploring how intelligent systems reason, plan, and verify — not just generate more tokens.**
+**Student ML Researcher exploring/Researching how intelligent systems reason, plan, and verify — not just generate more tokens.**
 
 <p>
   <a href="#projects-and-repositories">PROJECTS</a> &nbsp;·&nbsp;
@@ -20,7 +20,7 @@
 
 ## About
 
-I'm a Computer Science student interested in **AI reasoning, research engineering, and reliable agentic systems**. I build research tools, interactive experiments, and software workflows that make complex ideas easier to inspect, test, and reproduce.
+I'm a Computer Science student currently researching/working in **AI reasoning, research engineering, and reliable agentic systems**. I build research tools, interactive experiments, and software workflows that make complex ideas easier to inspect, test, and reproduce.
 
 My focus is on **evidence over appearance, verification over assumption, and useful systems over impressive demos**.
 
