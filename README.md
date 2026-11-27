@@ -56,6 +56,7 @@ A map of my public work across AI research, agent engineering, specialist toolki
 - **[MarketPilot AI](https://github.com/voyager67/MarketPilot-AI)** — A model-agnostic trading research toolkit for market scans, risk checks, scenario replay, walk-forward evaluation, and paper-only workflows.
 - **[The Sharks](https://github.com/voyager67/The-Sharks)** — A multi-agent startup evaluation framework that pressure-tests customers, revenue, unit economics, competition, and founder-market fit.
 - **[Kinoquence](https://github.com/voyager67/kinoquence)** — A local-first, model-agnostic production workflow for animated shorts, with structured storyboards, asset tracking, captions, credits, and quality checks.
+- **[ClipRally](https://github.com/voyager67/cliprally)** — A local-first video-to-shorts workflow that transcribes videos, finds and ranks candidate moments, reframes them for 9:16, adds word-highlight captions, and exports finished MP4 clips.
 - **[SheerFlow — SheerID Workflow Studio](https://github.com/voyager67/Sheerid-Workflow-Studio)** — A JavaScript workbench for authorized SheerID API integrations, verification workflows, document uploads, and auditable job tracking.
 
 ### Security and Inspection Tools
