@@ -6,7 +6,7 @@
 
 ### AI Reasoning · Hierarchical Computation · Research Engineering
 
-**Student ML Researcher exploring/Researching how intelligent systems reason, plan, and verify — not just generate more tokens.**
+**Student ML Researcher exploring how intelligent systems reason, plan, and verify — not just generate more tokens.**
 
 <p>
   <a href="#projects-and-repositories">PROJECTS</a> &nbsp;·&nbsp;
@@ -20,9 +20,22 @@
 
 ## About
 
-I'm a Computer Science student currently researching/working in **AI reasoning, research engineering, and reliable agentic systems**. I build research tools, interactive experiments, and software workflows that make complex ideas easier to inspect, test, and reproduce.
+I'm a Computer Science student currently working on **AI reasoning, research engineering, and reliable agentic systems**.
 
-My focus is on **evidence over appearance, verification over assumption, and useful systems over impressive demos**.
+My primary focus is **hierarchical reasoning methods, inference-time computation, and the evaluation of intelligent systems**. I'm also interested in neuro-symbolic approaches and methods that make reasoning more structured, inspectable, and verifiable.
+
+I value reproducibility, careful experimentation, and evidence-backed engineering.
+
+## Research Directions
+
+### 01 · Hierarchical Reasoning Methods
+My primary research direction: structured search, hierarchical computation, inference-time reasoning, and approaches such as Tree-of-Thought. I am interested in making multi-step reasoning more efficient, transparent, and verifiable.
+
+### 02 · Reasoning Evaluation
+Controlled experiments, benchmark and evaluation-set design, model comparisons, statistical analysis, independent verification, and reproducible results.
+
+### 03 · Reliable Agentic Systems
+Evidence-grounded agent architectures, trace-based evaluation, tool governance, execution safety, security, and system reliability.
 
 ## Projects and Repositories
 
