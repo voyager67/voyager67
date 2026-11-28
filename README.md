@@ -49,6 +49,7 @@ A map of my public work across AI research, agent engineering, specialist toolki
 - **[KINETIQ Machine Simulation Skills](https://github.com/voyager67/KINETIQ-Machine-Simulation-Skills)** — Portable skills for interactive 3D machine explainers, mechanical simulation, physics validation, and offline delivery.
 - **[Pixelcraft](https://github.com/voyager67/Pixelcraft)** — A specialized skill library for identifying and improving generic interfaces, visual hierarchy, typography, layout, accessibility, and design consistency.
 - **[LinkedIn Skills 360](https://github.com/voyager67/LinkedIn-Skills-360)** — A model-agnostic AI skill ecosystem for LinkedIn workflows across careers, networking, content creation, sales, recruiting, and hiring.
+- **[Y Combinator Skills](https://github.com/voyager67/Y-Combinator-Skills)** — A local-first AI operating toolkit for company-building, with 46 founder workflows, six specialist roles, multimodal input routing, and optional bounded multi-agent orchestration.
 
 ### Applied AI and Product Systems
 
